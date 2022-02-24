@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/violafranco.github/static/css/main.073c9b0a.css",
-    "main.js": "/violafranco.github/static/js/main.801a1af0.js",
+    "main.css": "/violafranco.github/static/css/main.964fdded.css",
+    "main.js": "/violafranco.github/static/js/main.df07f20a.js",
     "index.html": "/violafranco.github/index.html",
-    "main.073c9b0a.css.map": "/violafranco.github/static/css/main.073c9b0a.css.map",
-    "main.801a1af0.js.map": "/violafranco.github/static/js/main.801a1af0.js.map"
+    "main.964fdded.css.map": "/violafranco.github/static/css/main.964fdded.css.map",
+    "main.df07f20a.js.map": "/violafranco.github/static/js/main.df07f20a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.801a1af0.js"
+    "static/css/main.964fdded.css",
+    "static/js/main.df07f20a.js"
   ]
 }
