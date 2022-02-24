@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import './App.css';
 import Themes from './theme/theme';
 import styled, { ThemeProvider } from 'styled-components';
 import Switch from './switch/Switch';
 import { GlobalStyle } from './theme/theme';
+import Header from './components/Header';
+import Main from './components/Main';
 
 const App = () => {
 
@@ -14,7 +15,14 @@ const App = () => {
       <ThemeProvider theme={Themes[theme]}>
         <GlobalStyle />
 
-        <Switch theme={theme} setTheme={setTheme} />
+        <Header theme={theme} setTheme={setTheme}>
+
+        </Header>
+
+        <Main>
+          
+        </Main>
+
       </ThemeProvider>
     </>
   );

@@ -44,8 +44,8 @@ const SwitchContainer = styled.div`
 const SwitchWrapper = styled.div`
     width: 100%;
     max-width: 1000px;
-    margin: auto;
-    padding-top: 11px;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;

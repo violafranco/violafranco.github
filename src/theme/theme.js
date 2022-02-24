@@ -23,18 +23,16 @@ const Themes = {
 export const GlobalStyle = createGlobalStyle`
     
     * {
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     body {
         font-family: 'Poppins', sans-serif;
         font-size: 0.7em;
-        display: flex;
-        justify-content: center;
-        max-width: 100vw;
-        background-color: ${({theme}) => theme.BgPrimary};  
+        background-color: ${({theme}) => theme.BgPrimary}; 
+        scroll-behavior: smooth; 
     }
 
 
