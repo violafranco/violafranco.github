@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/violafranco.github/static/css/main.073c9b0a.css",
+    "main.js": "/violafranco.github/static/js/main.801a1af0.js",
+    "index.html": "/violafranco.github/index.html",
+    "main.073c9b0a.css.map": "/violafranco.github/static/css/main.073c9b0a.css.map",
+    "main.801a1af0.js.map": "/violafranco.github/static/js/main.801a1af0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.801a1af0.js"
+  ]
+}
