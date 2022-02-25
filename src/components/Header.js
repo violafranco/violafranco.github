@@ -14,7 +14,6 @@ const Header = ({theme, setTheme}) => {
                 <Logo to="main">[Franco]</Logo>
                 <Text to="main">Proyectos</Text>
                 <Text to="main">Mis Skills</Text>
-                <Text to="main">Sobre Mí</Text>
                 <Text to="main">Contacto</Text>
                 <Switch theme={theme} setTheme={setTheme} />
             </BoxOne>
@@ -36,20 +35,27 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    &.background{filter: blur(10px);}
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+    }
 `
 
 const BoxOne = styled.div`
     padding: 0;
     display: flex;
+    text-align: center;
 ` 
 
 const BoxTwo = styled.div`
     padding: 0;
     margin: 0;
+    text-align: end;
 `
 
 const Logo = styled(Link)`
-    font-size: 3em;
+    font-size: 3.2em;
     font-family: 'Yanone Kaffeesatz', sans-serif;;
     text-decoration: none;
     color: ${({theme}) => theme.TextPrimary};
@@ -61,7 +67,7 @@ const Logo = styled(Link)`
 `
 
 const Text = styled(Link)`
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     color: ${({theme}) => theme.TextPrimary};
@@ -76,16 +82,40 @@ const Text = styled(Link)`
     &:active{
         transform: translateY(5px);
     }
+
+    @media (max-width: 768px) {
+        font-size: 1.1em;
+    }
 `
 
 const GitL = styled(GitHubLogo)`
-    width: 7%;
+    width: 30px;
     fill: ${({theme}) => theme.TextPrimary};
+    padding: 0;
+    transition: all ease-in 0.3s;
+
+    &:hover{
+        fill: ${({theme}) => theme.TextSecondary};
+    }
+
+    @media (max-width: 480px) {
+        width: 20px;
+    }
 `
 
 const LinkedinL = styled(LinkedinLogo)`
-    width: 7%;
+    width: 30px;
     fill: ${({theme}) => theme.TextPrimary};
+    padding: 0;
+    transition: all ease-in 0.3s;
+
+    &:hover{
+        fill: ${({theme}) => theme.TextSecondary};
+    }
+
+    @media (max-width: 480px) {
+        width: 20px;
+    }
 `
 
 export default Header;

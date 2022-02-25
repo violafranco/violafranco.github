@@ -4,7 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import Switch from './switch/Switch';
 import { GlobalStyle } from './theme/theme';
 import Header from './components/Header';
-import Main from './components/Main';
+import AboutMe from './components/AboutMe';
 
 const App = () => {
 
@@ -19,14 +19,13 @@ const App = () => {
 
         </Header>
 
-        <Main>
+        <AboutMe>
           
-        </Main>
+        </AboutMe>
 
       </ThemeProvider>
     </>
   );
 }
-
 
 export default App;
