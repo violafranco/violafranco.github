@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/violafranco.github/static/css/main.e6c13ad2.css",
-    "main.js": "/violafranco.github/static/js/main.6175836c.js",
+    "main.js": "/violafranco.github/static/js/main.b16f9c19.js",
     "static/media/githubLogo.svg": "/violafranco.github/static/media/githubLogo.d5db839804954646a24c4fe54c218be5.svg",
     "index.html": "/violafranco.github/index.html",
     "static/media/linkedinLogo.svg": "/violafranco.github/static/media/linkedinLogo.787aa301244425e7fe5bdcff7917892f.svg",
     "main.e6c13ad2.css.map": "/violafranco.github/static/css/main.e6c13ad2.css.map",
-    "main.6175836c.js.map": "/violafranco.github/static/js/main.6175836c.js.map"
+    "main.b16f9c19.js.map": "/violafranco.github/static/js/main.b16f9c19.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.6175836c.js"
+    "static/js/main.b16f9c19.js"
   ]
 }
