@@ -11,7 +11,7 @@ const Header = ({theme, setTheme}) => {
         <Container>
 
             <BoxOne>
-                <Logo to="main">[Franco]</Logo>
+                <Logo to="/">[Franco]</Logo>
                 <Text to="main">Proyectos</Text>
                 <Text to="main">Mis Skills</Text>
                 <Text to="main">Contacto</Text>
