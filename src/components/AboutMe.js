@@ -2,8 +2,6 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { Link } from "react-router-dom";
 import personalImage from './../img/personalPhoto.jpeg'
-import cup from './../img/cup.png'
-
 
 const Main = () => {
     return ( 
@@ -45,7 +43,7 @@ const Container = styled.div`
 `
 
 const BoxOne = styled.div`
-    max-width: 800px;
+    max-width: 850px;
 
     @media (max-width: 768px) {
     }
@@ -147,23 +145,5 @@ const Image = styled.img`
         margin-top: .5em;
     }
 `
-
-const ImageSecond = styled.img`
-    width: 7%;
-    border: none;
-    padding: 0;
-    margin: 0;
-    animation: 2.5s ${rotate} alternate infinite;
-
-    @media (max-width: 768px) {
-        width: 95%;
-        margin-top: 8em;
-    }
-
-    @media (max-width: 480px) {
-        width: 40%;
-        margin-top: .5em;}
-`
-
 
 export default Main;

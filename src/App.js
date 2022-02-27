@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import Themes from './theme/theme';
 import styled, { ThemeProvider } from 'styled-components';
-import Switch from './switch/Switch';
 import { GlobalStyle } from './theme/theme';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 
 const App = () => {
 
@@ -15,13 +15,11 @@ const App = () => {
       <ThemeProvider theme={Themes[theme]}>
         <GlobalStyle />
 
-        <Header theme={theme} setTheme={setTheme}>
+        <Header theme={theme} setTheme={setTheme}></Header>
 
-        </Header>
+        <AboutMe></AboutMe>
 
-        <AboutMe>
-          
-        </AboutMe>
+        <Skills></Skills>
 
       </ThemeProvider>
     </>

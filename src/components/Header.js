@@ -13,7 +13,7 @@ const Header = ({theme, setTheme}) => {
             <BoxOne>
                 <Logo to="/">[Franco]</Logo>
                 <Text to="main">Proyectos</Text>
-                <Text to="main">Mis Skills</Text>
+                <Text to="/Skills">Mis Skills</Text>
                 <Text to="main">Contacto</Text>
                 <Switch theme={theme} setTheme={setTheme} />
             </BoxOne>
