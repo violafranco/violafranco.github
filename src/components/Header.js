@@ -46,6 +46,8 @@ const BoxOne = styled.div`
     padding: 0;
     display: flex;
     text-align: center;
+
+    
 ` 
 
 const BoxTwo = styled.div`
@@ -85,6 +87,10 @@ const Text = styled(Link)`
 
     @media (max-width: 768px) {
         font-size: 1.1em;
+    }
+
+    @media (max-width: 480px) {
+        display: none;
     }
 `
 

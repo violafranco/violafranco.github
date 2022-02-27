@@ -57,7 +57,8 @@ const BoxOne = styled.div`
 const BoxTwo = styled.div`
     @media (max-width: 480px) {
         text-align: center;
-        margin-left: 2.2em;
+        margin-left: 3.3em;
+        margin-top: 2em;
     }
 `
 
@@ -136,7 +137,7 @@ const Image = styled.img`
     animation: 2.5s ${rotate} alternate infinite;
 
     @media (max-width: 768px) {
-        width: 95%;
+        width: 100%;
         margin-top: 8em;
     }
 
