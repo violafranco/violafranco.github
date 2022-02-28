@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/violafranco.github/static/css/main.e6c13ad2.css",
-    "main.js": "/violafranco.github/static/js/main.096d999b.js",
+    "main.js": "/violafranco.github/static/js/main.b1410b15.js",
     "static/media/cv.pdf": "/violafranco.github/static/media/cv.ba8900841bfacd79764c.pdf",
     "static/media/FyloPage.PNG": "/violafranco.github/static/media/FyloPage.22b76a70fafc02742cfe.PNG",
     "static/media/personalPhoto.jpeg": "/violafranco.github/static/media/personalPhoto.492dc4f572c44809ca3e.jpeg",
@@ -12,10 +12,10 @@
     "index.html": "/violafranco.github/index.html",
     "static/media/linkedinLogo.svg": "/violafranco.github/static/media/linkedinLogo.787aa301244425e7fe5bdcff7917892f.svg",
     "main.e6c13ad2.css.map": "/violafranco.github/static/css/main.e6c13ad2.css.map",
-    "main.096d999b.js.map": "/violafranco.github/static/js/main.096d999b.js.map"
+    "main.b1410b15.js.map": "/violafranco.github/static/js/main.b1410b15.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.096d999b.js"
+    "static/js/main.b1410b15.js"
   ]
 }
