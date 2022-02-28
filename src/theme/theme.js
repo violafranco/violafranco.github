@@ -32,10 +32,24 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         font-size: 0.7em;
         background-color: ${({theme}) => theme.BgPrimary}; 
-        scroll-behavior: smooth; 
     }
 
+    html{
+        scroll-behavior: smooth;
 
+        //scrollbar styles
+        ::-webkit-scrollbar{
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track{
+            background-color: #CCCCCC;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #007cdb;
+            background-image: -webkit-linear-gradient(90deg,transparent,rgba(0, 0, 0, 0.4) 50%,transparent,transparent)
+        }
+    
+    
+}
 `
-
 export default Themes;

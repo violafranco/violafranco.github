@@ -5,7 +5,7 @@ import personalImage from './../img/personalPhoto.jpeg'
 
 const Main = () => {
     return ( 
-        <Container>
+        <Container id='aboutMe'>
             <BoxOne>
                 <Title><strong>Front End</strong>Developer</Title>
                 <Paragraph>

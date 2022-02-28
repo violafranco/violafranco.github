@@ -13,7 +13,7 @@ import agile from './../img/Skills/agile.png';
 
 const Skills = () => {
     return ( 
-        <Container>
+        <Container id='skills'>
             <BoxOne>
                 <Title>Mis<strong>Skills</strong></Title>
             </BoxOne>

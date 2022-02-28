@@ -6,7 +6,7 @@ import ToDoList from './../img/Projects/ToDoList-React.PNG'
 
 const MyProjects = () => {
     return (
-        <Container>
+        <Container id='projects'>
             <BoxOne>
                 <Title>Mis<strong>Proyectos</strong></Title>
                 <Paragraph>Estos son los proyectos de mi portafolio. 

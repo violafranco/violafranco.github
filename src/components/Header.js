@@ -4,17 +4,17 @@ import Switch from '../switch/Switch';
 import { Link } from "react-router-dom";
 import {ReactComponent as GitHubLogo} from './../img/githubLogo.svg';
 import {ReactComponent as LinkedinLogo} from './../img/linkedinLogo.svg';
-
+import MyProjects from './MyProjects';
 
 const Header = ({theme, setTheme}) => {
     return ( 
         <Container>
 
             <BoxOne>
-                <Logo to="/">[Franco]</Logo>
-                <Text to="main">Proyectos</Text>
-                <Text to="/Skills">Mis Skills</Text>
-                <Text to="main">Contacto</Text>
+                <Logo href='#aboutMe'>[Franco]</Logo>
+                <Text href='#skills'>Mis Skills</Text>
+                <Text href='#projects'>Proyectos</Text>
+                <Text href='#contact'>Contacto</Text>
                 <Switch theme={theme} setTheme={setTheme} />
             </BoxOne>
 
@@ -32,10 +32,9 @@ const Container = styled.div`
     color: ${({theme}) => theme.TextPrimary};
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    &.background{filter: blur(10px);}
 
     @media (max-width: 768px) {
         flex-direction: row;
@@ -54,9 +53,13 @@ const BoxTwo = styled.div`
     padding: 0;
     margin: 0;
     text-align: end;
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
 `
 
-const Logo = styled(Link)`
+const Logo = styled.a`
     font-size: 3.2em;
     font-family: 'Yanone Kaffeesatz', sans-serif;;
     text-decoration: none;
@@ -68,7 +71,7 @@ const Logo = styled(Link)`
     }
 `
 
-const Text = styled(Link)`
+const Text = styled.a`
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
@@ -98,6 +101,7 @@ const GitL = styled(GitHubLogo)`
     width: 30px;
     fill: ${({theme}) => theme.TextPrimary};
     padding: 0;
+    margin: 0;
     transition: all ease-in 0.3s;
 
     &:hover{
@@ -105,7 +109,7 @@ const GitL = styled(GitHubLogo)`
     }
 
     @media (max-width: 480px) {
-        width: 20px;
+        width: 27px;
     }
 `
 
@@ -114,13 +118,14 @@ const LinkedinL = styled(LinkedinLogo)`
     fill: ${({theme}) => theme.TextPrimary};
     padding: 0;
     transition: all ease-in 0.3s;
+    margin: 0;
 
     &:hover{
         fill: ${({theme}) => theme.TextSecondary};
     }
 
     @media (max-width: 480px) {
-        width: 20px;
+        width: 27px;
     }
 `
 

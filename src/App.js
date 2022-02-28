@@ -6,6 +6,8 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import MyProjects from './components/MyProjects';
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -23,6 +25,10 @@ const App = () => {
         <Skills></Skills>
 
         <MyProjects></MyProjects>
+
+        <ContactMe></ContactMe>
+
+        <Footer></Footer>
 
       </ThemeProvider>
     </>
