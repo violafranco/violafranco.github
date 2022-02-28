@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/violafranco.github/static/css/main.e6c13ad2.css",
-    "main.js": "/violafranco.github/static/js/main.81951cad.js",
+    "main.js": "/violafranco.github/static/js/main.096d999b.js",
+    "static/media/cv.pdf": "/violafranco.github/static/media/cv.ba8900841bfacd79764c.pdf",
     "static/media/FyloPage.PNG": "/violafranco.github/static/media/FyloPage.22b76a70fafc02742cfe.PNG",
     "static/media/personalPhoto.jpeg": "/violafranco.github/static/media/personalPhoto.492dc4f572c44809ca3e.jpeg",
     "static/media/ListaGastos.PNG": "/violafranco.github/static/media/ListaGastos.d9a5d4f70462a53e4811.PNG",
     "static/media/ToDoList-React.PNG": "/violafranco.github/static/media/ToDoList-React.acd594bd9771cf16ef9f.PNG",
+    "static/media/arrow.png": "/violafranco.github/static/media/arrow.5ecc7c9cb1edb790c5a9.png",
     "static/media/githubLogo.svg": "/violafranco.github/static/media/githubLogo.d5db839804954646a24c4fe54c218be5.svg",
     "index.html": "/violafranco.github/index.html",
     "static/media/linkedinLogo.svg": "/violafranco.github/static/media/linkedinLogo.787aa301244425e7fe5bdcff7917892f.svg",
     "main.e6c13ad2.css.map": "/violafranco.github/static/css/main.e6c13ad2.css.map",
-    "main.81951cad.js.map": "/violafranco.github/static/js/main.81951cad.js.map"
+    "main.096d999b.js.map": "/violafranco.github/static/js/main.096d999b.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.81951cad.js"
+    "static/js/main.096d999b.js"
   ]
 }
