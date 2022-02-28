@@ -16,7 +16,7 @@ const Main = () => {
                     computación dentro de la UNC y estoy realizando el curso de Certified
                     Tech Developer dentro de Digital House.
                 </Paragraph>
-                <Button to="main">MIS PROYECTOS</Button> 
+                <Button href='#projects'>MIS PROYECTOS</Button> 
             </BoxOne>
 
             <BoxTwo>
@@ -101,7 +101,7 @@ const Paragraph = styled.p`
     }
 `
 
-const Button = styled(Link)`
+const Button = styled.a`
     text-decoration: none;
     font-size: 1.6em;
     margin-left: 1.4em;

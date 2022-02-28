@@ -20,7 +20,7 @@ const ContactMe = () => {
                 </ContainerArrow>
                 
                 <div>
-                    <Text>LINKEDIN: <a href='https://www.linkedin.com/in/franco-viola-/' target='_blank'>VIOLAFRANCO</a> </Text>
+                    <Text>LINKEDIN: <a href='https://www.linkedin.com/in/franco-viola-/' target='_blank'>FRANCO VIOLA</a> </Text>
                     <Text>TELÉFONO: <a>+54 3564-413771</a> </Text>
                     <Text>EMAIL: <a href="mailto:francoviolaok@gmail.com" target='_blank'>FRANCOVIOLAOK@GMAIL.COM</a>  </Text>
                     <Text>CV: <a href={cv} download='FrancoViolaCV.pdf'>DESCARGAR CV</a>  </Text>
