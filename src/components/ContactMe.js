@@ -101,8 +101,10 @@ const BoxTwo = styled.div`
 
     @media (max-width: 480px) {
         width: 90vw;
-        margin: 0;
+        margin-left: -4em;
+        
     }
+
 `
 
 const ContainerArrow = styled.div`
