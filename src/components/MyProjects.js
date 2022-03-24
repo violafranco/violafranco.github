@@ -4,8 +4,7 @@ import ListaDeGastos from './../img/Projects/ListaGastos.PNG';
 import FyloPage from './../img/Projects/FyloPage.PNG';
 import ToDoList from './../img/Projects/ToDoList-React.PNG';
 import Remix from './../img/Projects/Remix.PNG';
-import Slider from 'react-styled-carousel';
-
+import Weather from './../img/Projects/Weather.PNG';
 
 const MyProjects = () => {
     return (
@@ -18,6 +17,27 @@ const MyProjects = () => {
             </BoxOne>
 
             <BoxTwo>
+                <ContainerCard2>
+                    <Card>
+                        <Image src={ListaDeGastos} />
+                        <TitleProject>Lista de Gastos - React</TitleProject>
+                        <DescriptionProject>Esta app llamada "Lista de Gastos" tiene la principal 
+                        funcionalidad de llevar un registro mensual de que gastos realizado. Para realizar la aplicación 
+                        utilice React, cree los estilos con Styled Component y utilice como 
+                        base de datos Firebase.</DescriptionProject>
+                        <Button><a href='https://github.com/violafranco/ListaDeGastos' target='_blank'>Ver codigo en GitHub</a></Button>
+                        <Button><a href='https://gniy8.csb.app/iniciar-sesion' target='_blank'>Visualizar Página</a></Button>
+                    </Card>
+                    <Card>
+                        <Image src={Weather} />
+                        <TitleProject>Aplicación del clima - React</TitleProject>
+                        <DescriptionProject>Esta es una simple aplicación del clima que esta hecha con ReactJS y estilizada
+                        con Styled components. La misma consume y extrae los datos de la REST API Open Weather Map</DescriptionProject>
+                        <Button><a href='https://github.com/violafranco/weatherApp' target='_blank'>Ver codigo en GitHub</a></Button>
+                        <Button><a href='https://violafranco.github.io/weatherApp/' target='_blank'>Visualizar Página</a></Button>
+                    </Card>
+                </ContainerCard2>
+
                 <ContainerCard>
                     <Card>
                         <Image src={ToDoList} />
@@ -45,18 +65,6 @@ const MyProjects = () => {
                         <Button><a href='https://violafranco.github.io/FyloPage/' target='_blank'>Visualizar Página</a></Button>
                     </Card>
                 </ContainerCard>
-                <ContainerCard2>
-                    <Card>
-                        <Image src={ListaDeGastos} />
-                        <TitleProject>Lista de Gastos - React</TitleProject>
-                        <DescriptionProject>Esta app llamada "Lista de Gastos" tiene la principal 
-                        funcionalidad de llevar un registro mensual de que gastos realizado. Para realizar la aplicación 
-                        utilice React, cree los estilos con Styled Component y utilice como 
-                        base de datos Firebase.</DescriptionProject>
-                        <Button><a href='https://github.com/violafranco/ListaDeGastos' target='_blank'>Ver codigo en GitHub</a></Button>
-                        <Button><a href='https://gniy8.csb.app/iniciar-sesion' target='_blank'>Visualizar Página</a></Button>
-                    </Card>
-                </ContainerCard2>
             </BoxTwo>
         </Container>
     );
@@ -188,7 +196,12 @@ const ContainerCard = styled.div`
     }
 `
 const ContainerCard2 = styled.div`
-    
+    display: flex;
+
+    @media (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+    }
 `
  
 export default MyProjects;
