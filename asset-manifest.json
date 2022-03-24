@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/violafranco.github/static/css/main.e6c13ad2.css",
-    "main.js": "/violafranco.github/static/js/main.67cc820a.js",
+    "main.js": "/violafranco.github/static/js/main.f44126d4.js",
     "static/media/cv.pdf": "/violafranco.github/static/media/cv.4a1658a4846b4baa20b0.pdf",
+    "static/media/Weather.PNG": "/violafranco.github/static/media/Weather.ad3a3ded824d8294bd27.PNG",
     "static/media/Remix.PNG": "/violafranco.github/static/media/Remix.edd91601ef5ba06aa76f.PNG",
     "static/media/FyloPage.PNG": "/violafranco.github/static/media/FyloPage.22b76a70fafc02742cfe.PNG",
     "static/media/personalPhoto.jpeg": "/violafranco.github/static/media/personalPhoto.492dc4f572c44809ca3e.jpeg",
@@ -13,10 +14,10 @@
     "index.html": "/violafranco.github/index.html",
     "static/media/linkedinLogo.svg": "/violafranco.github/static/media/linkedinLogo.787aa301244425e7fe5bdcff7917892f.svg",
     "main.e6c13ad2.css.map": "/violafranco.github/static/css/main.e6c13ad2.css.map",
-    "main.67cc820a.js.map": "/violafranco.github/static/js/main.67cc820a.js.map"
+    "main.f44126d4.js.map": "/violafranco.github/static/js/main.f44126d4.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.67cc820a.js"
+    "static/js/main.f44126d4.js"
   ]
 }
