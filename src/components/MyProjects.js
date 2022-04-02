@@ -5,6 +5,7 @@ import FyloPage from './../img/Projects/FyloPage.PNG';
 import ToDoList from './../img/Projects/ToDoList-React.PNG';
 import Remix from './../img/Projects/Remix.PNG';
 import Weather from './../img/Projects/Weather.PNG';
+import RickAndMorty from './../img/Projects/rickAndMorty.PNG';
 
 const MyProjects = () => {
     return (
@@ -35,6 +36,14 @@ const MyProjects = () => {
                         con Styled components. La misma consume y extrae los datos de la REST API Open Weather Map</DescriptionProject>
                         <Button><a href='https://github.com/violafranco/weatherApp' target='_blank'>Ver codigo en GitHub</a></Button>
                         <Button><a href='https://violafranco.github.io/weatherApp/' target='_blank'>Visualizar Página</a></Button>
+                    </Card>
+                    <Card>
+                        <Image src={RickAndMorty} />
+                        <TitleProject>Rick & Morty - React</TitleProject>
+                        <DescriptionProject>Esta es una app que consume la REST API de rick and morty, de la misma extraigo algunos
+                        datos y creo cards de cada personaje dando una breve descripción, para su estilización utilice Styled Component</DescriptionProject>
+                        <Button><a href='https://github.com/violafranco/rick-MortyApp' target='_blank'>Ver codigo en GitHub</a></Button>
+                        <Button><a href='https://violafranco.github.io/rick-MortyApp/' target='_blank'>Visualizar Página</a></Button>
                     </Card>
                 </ContainerCard2>
 
@@ -202,6 +211,7 @@ const ContainerCard2 = styled.div`
         display: flex;
         flex-direction: column;
     }
+
 `
  
 export default MyProjects;
